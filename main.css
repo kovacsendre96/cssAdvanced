@@ -1,7 +1,80 @@
 
 
 
-/* ============TASK17============*/
+/* ============TASK 5.1============*/
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr 2fr);
+  grid-auto-rows: minmax(150px, auto);
+  gap: 15px 25px;
+  background-color: #3e2723;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.item {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.item-1 {
+  background-color: orange;
+}
+
+.item-2 {
+  background-color: red;
+}
+
+.item-3 {
+  background-color: green;
+}
+
+.item-4 {
+  background-color: blue;
+}
+
+.item-5 {
+  border-color: black;
+  background-color: cyan;
+  color: black;
+}
+
+.item-6 {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 70px);
+  grid-gap:5px;
+  border-color: black;
+  background-color: white;
+  color: black;
+}
+
+.item-7 {
+  border-color: black;
+  background-color: yellow;
+  color: black;
+}
+
+.item-8 {
+  background-color: gray;
+}
+
+.not-nested,
+.nested {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #000000;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* ============TASK17============
 
 .container {
   display: grid;
