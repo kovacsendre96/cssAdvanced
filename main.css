@@ -1,4 +1,51 @@
-/* ============TASK6============*/
+/* ============TASK7============*/
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(4, 150px);
+  justify-content: space-between;
+  grid-gap: 10px;
+  background-color: #3e2723;
+  border-radius: 10px;
+}
+
+.item {
+  border: 1px solid #444444;
+  border-radius: 5px;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.item-1 {
+  background-color: orange;
+}
+
+.item-2 {
+  background-color: red;
+}
+
+.item-3 {
+  background-color: green;
+}
+
+.item-4 {
+  background-color: blue;
+}
+
+.item-5 {
+  background-color: brown;
+}
+
+.item-6 {
+  background-color: gray;
+}
+
+
+
+
+/* ============TASK6============
 
 
 .container {
