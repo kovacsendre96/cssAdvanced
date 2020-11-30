@@ -1,4 +1,89 @@
-/* ============TASK9============*/
+/* ============TASK11============*/
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+  background-color: #3e2723;
+  padding: 10px;
+  border-radius: 10px;
+  justify-items: stretch;
+  
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid #444444;
+  border-radius: 5px;
+  background-color: gray;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  
+}
+
+.item-header{
+  padding: 20px;
+background-color: #ffffff;
+font-size: 40px;
+color: #000000;
+grid-column: span 12;
+
+}
+
+.item-1-12 {
+  grid-column: span 1;
+}
+
+.item-2-12 {
+  grid-column: span 2;
+}
+
+.item-3-12 {
+  grid-column: span 3;
+}
+
+.item-4-12 {
+  grid-column: span 4;
+}
+
+.item-5-12 {
+  grid-column: span 5;
+}
+
+.item-6-12 {
+  grid-column: span 6;
+}
+
+.item-7-12 {
+  grid-column: span 7;
+}
+
+.item-8-12 {
+  grid-column: span 8;
+}
+
+.item-9-12 {
+  grid-column: span 9;
+}
+
+.item-10-12 {
+  grid-column: span 10;
+}
+
+.item-11-12 {
+  grid-column: span 11;
+}
+
+.item-12-12 {
+  grid-column: span 12;
+}
+
+
+
+
+
+
+/* ============TASK9============
 
 
 .container {
