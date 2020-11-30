@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: repeat(6, 150px);
   grid-template-rows: repeat(4, 150px);
- justify-items: center;
+ align-items: center;
   background: no-repeat url(https://codeberry-curriculum-assets.s3.eu-central-1.amazonaws.com/advanced-css-course/1.+a-css-c-3-4-grid.png);
   grid-gap: 10px;
 }
