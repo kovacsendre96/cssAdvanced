@@ -48,7 +48,28 @@ table {
 }
 
 
-/* ============TASK 8.3============*/
+/* ============TASK 8.4============*/
+
+
+.container {
+  background: url('assets/background-sw.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+ 
+}
+
+/* ============TASK 8.3============
 .container {
   display: flex;
   height: 400px;
