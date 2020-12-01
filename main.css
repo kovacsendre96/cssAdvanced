@@ -50,6 +50,65 @@ table {
 
 /* ============TASK 7.4============*/
 .container {
+  display: flex;
+}
+.first-container{
+  justify-content: center;
+}
+
+.second-container{
+  justify-content: space-around;
+}
+.third-container{
+  justify-content: space-evenly;
+}
+.fourth-container{
+  justify-content: space-between;
+}
+
+
+
+
+.box {
+  width: 130px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.yellow-box {
+  background-color: #FFFF00;
+
+}
+
+.red-box {
+  background-color: #FF4500;
+}
+
+.green-box {
+  background-color: #7CFC00;
+}
+
+.white-box {
+  background-color: #FFFFFF;
+}
+
+.first-container {
+  background-color: #D3D3D3;
+}
+
+.second-container {
+  background-color: #F0F8FF;
+}
+
+.third-container {
+  background-color: #A9A9A9;
+}
+
+.fourth-container {
+  background-color: #F5F5DC;
+}
+/* ============TASK 7.4============
+.container {
   background-color: lightgrey;
   display: flex;
   flex-flow: row-reverse wrap;
