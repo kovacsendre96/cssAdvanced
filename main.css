@@ -48,7 +48,59 @@ table {
 }
 
 
-/* ============TASK 7.6============*/
+/* ============TASK 7.7============*/
+.container {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 50px;
+  width: wrap;
+  margin: 10px;
+  font-size: 25px;
+  line-height: 50px;  
+}
+
+.yellow-box {
+  background-color: #FFFF00;
+}
+
+.green-box {
+  background-color: #7CFC00;
+}
+
+.pink-box {
+  background-color: #FFC0CB;
+}
+
+.blue-box {
+  background-color: #00FFFF;
+}
+
+
+.first-container {
+  background-color: #D3D3D3;
+  align-content: center;
+}
+
+.second-container {
+  background-color: #F0F8FF;
+  align-content: space-between;
+}
+
+.third-container {
+  background-color: #A9A9A9;
+  align-content: space-around;
+}
+
+.fourth-container {
+  background-color: #F5F5DC;
+  align-content: flex-end;
+}
+/* ============TASK 7.6============
 .container {
   display: flex;
 }
