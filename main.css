@@ -48,7 +48,38 @@ table {
 }
 
 
-/* ============TASK 7.2============*/
+/* ============TASK 7.4============*/
+.container {
+  background-color: lightgrey;
+  display: flex;
+  flex-flow: row-reverse wrap;
+}
+
+.box {
+  background-color: yellow;
+  width: 150px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+
+
+/* ============TASK 7.3============
+.container {
+  background-color: grey;
+  width: wrap;
+  flex-direction:column;
+  display: flex;
+}
+
+.item {
+  background-color: red;
+  width: 150px;
+  margin: 10px;
+  font-size: 25px;
+  
+}
+/* ============TASK 7.2============
 
 
 .container {
