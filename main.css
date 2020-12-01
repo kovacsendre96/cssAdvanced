@@ -48,7 +48,52 @@ table {
 }
 
 
-/* ============TASK 7.7============*/
+/* ============TASK 8.1============*/
+.container {
+  display: flex;
+}
+.blue:nth-of-type(1) { order: 5; }
+.green:nth-of-type(2) { order: 4; }
+.indigo:nth-of-type(3) { order: 6; }
+.red:nth-of-type(4) { order: 1; }
+.orange:nth-of-type(5) { order: 2; }
+.violet:nth-of-type(6) { order: 7; }
+.yellow:nth-of-type(7) { order: 3; }
+
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.blue {
+  background-color: #0000FF;
+}
+
+.green {
+  background-color: #008000;
+}
+
+.indigo {
+  background-color: #4B0082;
+}
+
+.red {
+  background-color: #FF0000;
+}
+
+.orange {
+  background-color: #FFA500;
+}
+
+.violet {
+  background-color: #EE82EE;
+}
+
+.yellow {
+  background-color: #FFFF00;
+}
+/* ============TASK 7.7============
 .container {
   width: 600px;
   height: 300px;
