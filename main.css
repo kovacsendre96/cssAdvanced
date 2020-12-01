@@ -48,7 +48,127 @@ table {
 }
 
 
-/* ============TASK 5.2============*/
+/* ============TASK 5.3============*/
+.main-container{
+  display: grid;
+ 
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows:55vh 55vh 55vh ;
+  gap: 15px;
+
+  
+  grid-template-areas: 
+  "container-1 container-2 container-3";
+  
+
+}
+
+.container-1, .container-2, .container-3{
+
+  grid-template-rows:55px 55px 300px ;
+  text-align: center;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  
+}
+
+
+.container-1{
+
+display: grid;
+
+grid-area: container-1;
+
+grid-template-areas: 
+"header "
+"price"
+"content";
+
+}
+
+
+.container-2{
+  display: grid;
+
+  grid-area: container-2;
+  
+  grid-template-areas: 
+  "header "
+  "price"
+  "content";
+}
+
+
+.container-3{
+  display: grid;
+
+grid-area: container-3;
+
+grid-template-areas: 
+"header "
+"price"
+"content";
+}
+
+.header{
+  grid-area: header;
+  background-color:  lightgrey;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 20px;
+}
+
+.price{
+  grid-area: price;
+  background-color: red;
+  color: white;
+  padding-top: 20px;
+  
+  
+}
+
+.content{
+  grid-area: content;
+  background-color: lightgrey;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding :15px;
+
+}
+
+
+p{
+  padding-top: 5px;
+
+  padding-bottom: 15px;
+}
+
+a{
+  border: 1px solid blue;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  font-size: 1rem;
+  padding: 5px;
+  
+  
+  
+  
+}
+ul {
+  padding-top: 15px;
+  text-align: start;
+}
+
+
+
+
+
+
+
+/* ============TASK 5.2============
 
 
 .container{
