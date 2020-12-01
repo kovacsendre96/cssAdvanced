@@ -48,6 +48,22 @@ table {
 }
 
 
+/* ============TASK 7.2============*/
+.container {
+  background-color: grey;
+  width: wrap;
+  flex-direction:column;
+  display: flex;
+}
+
+.item {
+  background-color: red;
+  width: 150px;
+  margin: 10px;
+  font-size: 25px;
+  
+}
+
 /* ============TASK 7.1============*/
 .container {
   background-color: grey;
