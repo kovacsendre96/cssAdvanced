@@ -8,7 +8,7 @@ div {
     height: 150px;
     border-radius: 50% 50% 0% 0%;
     background-color: red;
-    animation: heartbeat .7s ease infinite;
+    animation: heartbeat .7s ease 0.5s infinite;
   }
   
   #left {
