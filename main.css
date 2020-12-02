@@ -48,7 +48,32 @@ table {
 }
 
 
-/* ============TASK 11.2============*/
+/* ============TASK 11.3============*/
+body {
+  background-color: salmon;
+}
+
+div {
+  position: relative;
+  left: 40px;
+  top: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 50%;
+  transition:left 2s ease-in,top 2s ease-in,width 1600ms ease-in 400ms,height 1600ms ease-in 400ms;
+
+}
+
+div:hover {
+  
+  left: 130px;
+  top: 50px;
+  width: 75px;
+  height: 75px;
+}
+
+/* ============TASK 11.2============
 
 body {
   background-color: midnightblue;
