@@ -1,6 +1,35 @@
 
 
-/*Task12.2*/
+/*Task12.3*/
+
+div {
+    display: inline-block;
+    width: 75px;
+    height: 150px;
+    border-radius: 50% 50% 0% 0%;
+    background-color: red;
+    animation: heartbeat .7s infinite;
+  }
+  
+  #left {
+    position: relative;
+    left: 20px;
+    transform: rotate(-45deg);
+  }
+  
+  #right {
+    position: relative;
+    left: -5px;
+    transform: rotate(45deg);
+  }
+  @keyframes heartbeat{
+    0%   {width: 80px;height: 163px;}
+    75%  {width: 75px;height: 150px;}
+    100%  {width: 80px;height: 163px;}
+
+  }
+
+/*Task12.2
 
 * {
     margin: 0;
