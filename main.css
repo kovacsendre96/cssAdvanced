@@ -48,7 +48,36 @@ table {
 }
 
 
-/* ============TASK 10.5============*/
+/* ============TASK 10.6============*/
+div {
+  display: inline-block;
+  padding: 5px;
+  margin-top: 20px;
+  text-align: center;
+  vertical-align: top;
+  width: 60px;
+  height: 100px;
+  background-color: #e0d784;
+}
+#first{
+  transform:skewY(30deg)
+}
+
+#second {
+  width: 18px;
+  position: relative;
+  top: 20px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+#third{
+transform:skewY(-30deg)
+}
+
+
+
+/* ============TASK 10.5============
 div {
   display: inline-block;
   margin-top: 40px;
@@ -59,7 +88,7 @@ div {
   height: 50px;
   background-color: lightblue;
   border-radius: 10%;
-  transform: scale(-0.75,1.5);}
+  transform: skew();}
 
 
 /* ============TASK 10.4============
