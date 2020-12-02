@@ -1,6 +1,51 @@
 
 
-/*Task12.1*/
+/*Task12.2*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  input, label {
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 16px;
+  }
+  
+  input {
+    width: 200px;
+    height: 30px;
+    margin: 25px;
+    border-bottom: 1px solid grey;
+  }
+  
+  label {
+    display: inline-block;
+    position: relative;
+    left: -230px;
+    cursor: text;
+    transition:.5s ;
+    transform-origin: 0% 100%;
+  }
+
+  
+  
+  
+  input:focus {
+   
+    outline: 0;
+  }
+
+  input:focus~label{
+    
+    transform:matrix(0.8, 0, 0, 0.8, 0, -25)
+
+
+  }
+
+
+/*Task12.1
 div {
     display: inline-block;
     margin: 20px 5px 20px 5px;
