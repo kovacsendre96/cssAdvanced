@@ -48,6 +48,26 @@ table {
 }
 
 
+/* ============TASK 10.4============*/
+div {
+  display: inline-block;
+  width: 75px;
+  height: 150px;
+  border-radius: 50% 50% 0% 0%;
+  background-color: red;
+}
+
+#left {
+  position: relative;
+  left: 20px;
+   transform: rotate(-45deg);
+}
+
+#right {
+  position: relative;
+  left: -5px;
+  transform: rotate(45deg);
+}
 /* ============TASK 10.3============*/
 div {
   display: inline-block;
@@ -76,6 +96,8 @@ div {
   border-radius: 50%;
   transform: translate(-75px, -100px);
 }
+
+
 
 
 /* ============TASK 9.3============
