@@ -10,6 +10,7 @@ div {
     background-color: red;
     animation: heartbeat .7s ease-out 0.5s infinite reverse;
     animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation-fill-mode:backwards
   }
   
   #left {
