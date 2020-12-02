@@ -48,7 +48,21 @@ table {
 }
 
 
-/* ============TASK 10.4============*/
+/* ============TASK 10.5============*/
+div {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 100px;
+  height: 50px;
+  background-color: lightblue;
+  border-radius: 10%;
+  transform: scale(-0.75,1.5);}
+
+
+/* ============TASK 10.4============
 div {
   display: inline-block;
   width: 75px;
