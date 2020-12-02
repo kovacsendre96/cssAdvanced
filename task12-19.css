@@ -8,7 +8,8 @@ div {
     height: 150px;
     border-radius: 50% 50% 0% 0%;
     background-color: red;
-    animation: heartbeat .7s ease 0.5s infinite;
+    animation: heartbeat .7s ease-out 0.5s infinite reverse;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
   }
   
   #left {
