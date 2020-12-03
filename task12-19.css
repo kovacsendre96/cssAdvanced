@@ -1,6 +1,32 @@
 
 
-/*Task14.3/*/
+/*Task14.4*/
+
+.wrapper {
+  margin: auto;
+  width: 90vw;
+  height: 100vh;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: min(600px, 75vw);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background:palevioletred;
+  
+}
+
+
+
+/*Task14.3
 
 .container {
   height: calc(100vh - 10px);
@@ -211,5 +237,5 @@ div {
   }
   
   h1 {
-    font-weight: bold;
-  }
+    font-weight: bold;}
+  */
