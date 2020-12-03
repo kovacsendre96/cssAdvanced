@@ -16,8 +16,8 @@
   width: 50px;
   background-color: gold;
   position: absolute;
-  margin-left:calc(100vw - 70px);
-  margin-top: calc(100vh - 70px);
+  top: calc(100% - 70px);
+  left:calc(100% - 70px);
 
 
 
