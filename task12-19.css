@@ -1,6 +1,33 @@
 
 
-/*Task14.5*/
+/*Task14.6*/
+.wrapper {
+  margin: auto;
+  width: 90vw;
+  height: 100vh;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.box {
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  font-size: clamp(13px,3vw, 18px);
+}
+
+
+
+
+/*Task14.5
 
 
 .wrapper {

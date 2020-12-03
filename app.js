@@ -1,3 +1,21 @@
+// Task 14.6
+  $(document).ready(() => {
+    var headerText = $("h1").text();
+    var secondHeader = $("h2").text();
+    $(window).resize(() => {
+      var windowWidth = $(window).width();
+      var newHeader = headerText + " " + windowWidth + "px";
+      $("h1").text(newHeader);
+      
+      var pageFontSize = $(".wrapper p").css("font-size");
+      var newSecondHeader = secondHeader + " " + pageFontSize;
+      $("h2").text(newSecondHeader);
+    });
+  });
+  
+
+
+/*
 //Task 14.5
 
 $(document).ready(() => {
@@ -13,10 +31,8 @@ $(document).ready(() => {
       $("h2").text(newSecondHeader);
     });
   });
-  
 
 
-/*
 Task14.4
 $(document).ready(() => {
     var headerText = $("h1").text();
