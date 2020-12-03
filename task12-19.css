@@ -1,6 +1,34 @@
 
 
-/*Task14.4*/
+/*Task14.5*/
+
+
+.wrapper {
+  margin: auto;
+  width: 90vw;
+  height: 100vh;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.box {
+  background-color: white;
+  width: 600px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-header{
+font-size: (24px,3vw);
+
+}
+
+
+/*Task14.4
 
 .wrapper {
   margin: auto;
