@@ -1,6 +1,28 @@
 
 
-/*Task14.1/*/
+/*Task14.3/*/
+
+.container {
+  height: calc(100vh - 10px);
+  width: calc(100vw - 10px);
+  background-color: gray;
+  position: absolute;
+  
+  
+}
+
+.floater {
+  height: 50px;
+  width: 50px;
+  background-color: gold;
+  position: absolute;
+  margin-left:calc(100vw - 70px);
+  margin-top: calc(100vh - 70px);
+
+
+
+
+/*Task14.1
 :root{
   --primary-color:rgba(229, 57, 53, 0.3);
   --secondary-color: rgba(158, 158, 158, 0.35);
