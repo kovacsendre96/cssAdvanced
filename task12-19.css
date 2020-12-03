@@ -1,6 +1,41 @@
 
 
-/*Task14.6*/
+/*Task14.8*/
+.page {
+  height: 100vh;
+  width: 75vw;
+  margin: auto;
+  color: rgba(33, 33, 33, 1);
+}
+
+.page:before {
+  filter: blur(15px);
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+
+  background-image: url(https://images.unsplash.com/photo-1517916062899-26cae9af8553?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-size: cover;
+}
+
+.page h1 {
+  background: rgba(255, 255, 255, 0.5);
+  max-width: fit-content;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+.page p {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+
+
+/*Task14.6
 .wrapper {
   margin: auto;
   width: 90vw;

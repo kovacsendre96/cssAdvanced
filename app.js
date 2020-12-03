@@ -1,3 +1,12 @@
+
+
+  
+
+
+/*
+
+
+
 // Task 14.6
   $(document).ready(() => {
     var headerText = $("h1").text();
@@ -12,10 +21,6 @@
       $("h2").text(newSecondHeader);
     });
   });
-  
-
-
-/*
 //Task 14.5
 
 $(document).ready(() => {
